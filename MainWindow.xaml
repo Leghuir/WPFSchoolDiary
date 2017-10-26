@@ -1,0 +1,39 @@
+﻿<Window x:Class="WpfApplication8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="400" Width="525">
+    <Grid>
+
+
+        <Button x:Name="butpotwierdz" Content="Potwierdz" HorizontalAlignment="Left" Height="65" Margin="389,222,0,0" VerticalAlignment="Top" Width="118" Click="butpotwierdz_Click"/>
+        <Button x:Name="butoceny" Content="Oceny" HorizontalAlignment="Left" Height="65" Margin="389,151,0,0" VerticalAlignment="Top" Width="118" Click="butoceny_Click"/>
+        <Button x:Name="butprzedmioty" Content="Przedmioty" HorizontalAlignment="Left" Height="65" VerticalAlignment="Top" Width="118" Margin="389,80,0,0" Click="butprzedmioty_Click"/>
+        <Button x:Name="butimieinazwisko" Content="Imie Nazwisko" HorizontalAlignment="Left" Height="65" VerticalAlignment="Top" Width="118" Margin="389,10,0,0" Click="Button_Click"/>
+        <Button x:Name="butzapiszdopliku" Content="Zapisz do pliku" HorizontalAlignment="Left" Height="65" Margin="389,295,0,0" VerticalAlignment="Top" Width="118" Click="butzapiszdopliku_Click"/>
+        <TextBox x:Name="tbimie" HorizontalAlignment="Left" Height="33" Margin="24,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Visibility="Visible"/>
+        <TextBox x:Name="tbnazwisko" HorizontalAlignment="Left" Height="33" Margin="24,151,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Visibility="Visible"/>
+        
+        <Label x:Name="lbimie" Content="Imie" HorizontalAlignment="Left" Height="33" Margin="24,29,0,0" VerticalAlignment="Top" Width="166" Visibility="Visible"/>
+        <Label x:Name="lbnazwisko" Content="Nazwisko" HorizontalAlignment="Left" Height="33" Margin="24,112,0,0" VerticalAlignment="Top" Width="166" Visibility="Visible"/>
+        <Label x:Name="lboceny" Content="Oceny" HorizontalAlignment="Left" Height="33" Margin="24,29,0,0" VerticalAlignment="Top" Width="166" Visibility="Hidden"/>
+        <Label x:Name="lbprzedmoty" Content="Przedmioty" HorizontalAlignment="Left" Height="33" Margin="24,34,0,0" VerticalAlignment="Top" Width="166" Visibility="Hidden" />
+        <TextBox x:Name="tbprzedmioty" HorizontalAlignment="Left" Height="33" Margin="24,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Visibility="Hidden" TextChanged="tbprzedmioty_TextChanged" />
+        <TextBox x:Name="tbprzedmioty_Copy" HorizontalAlignment="Left" Height="33" Margin="24,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Visibility="Hidden" TextChanged="tbprzedmioty_Copy_TextChanged"/>
+        <TextBox x:Name="tbprzedmioty_Copy1" HorizontalAlignment="Left" Height="33" Margin="24,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Visibility="Hidden" TextChanged="tbprzedmioty_Copy1_TextChanged"/>
+        <TextBox x:Name="tbprzedmioty_Copy2" HorizontalAlignment="Left" Height="33" Margin="24,181,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Visibility="Hidden" TextChanged="tbprzedmioty_Copy2_TextChanged"/>
+        <TextBox x:Name="tbprzedmioty_Copy3" HorizontalAlignment="Left" Height="33" Margin="24,219,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Visibility="Hidden" TextChanged="tbprzedmioty_Copy3_TextChanged"/>
+        <TextBox x:Name="tbprzedmioty_Copy4" HorizontalAlignment="Left" Height="33" Margin="24,257,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Visibility="Hidden" TextChanged="tbprzedmioty_Copy4_TextChanged"/>
+        <TextBox x:Name="tbprzedmioty_Copy5" HorizontalAlignment="Left" Height="33" Margin="24,295,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Visibility="Hidden" />
+        <TextBox x:Name="tboceny" HorizontalAlignment="Left" Height="33" Margin="24,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Visibility="Hidden" TextChanged="tboceny_TextChanged"/>
+        <TextBox x:Name="tboceny_Copy" HorizontalAlignment="Left" Height="33" Margin="24,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Visibility="Hidden" TextChanged="tboceny_Copy_TextChanged"/>
+        <TextBox x:Name="tboceny_Copy1" HorizontalAlignment="Left" Height="33" Margin="24,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Visibility="Hidden" TextChanged="tboceny_Copy1_TextChanged"/>
+        <TextBox x:Name="tboceny_Copy2" HorizontalAlignment="Left" Height="33" Margin="24,181,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Visibility="Hidden" TextChanged="tboceny_Copy2_TextChanged"/>
+        <TextBox x:Name="tboceny_Copy3" HorizontalAlignment="Left" Height="33" Margin="24,219,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Visibility="Hidden" TextChanged="tboceny_Copy3_TextChanged"/>
+        <TextBox x:Name="tboceny_Copy4" HorizontalAlignment="Left" Height="33" Margin="24,257,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Visibility="Hidden" TextChanged="tboceny_Copy4_TextChanged"/>
+        <TextBox x:Name="tboceny_Copy5" HorizontalAlignment="Left" Height="33" Margin="24,295,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Visibility="Hidden"/>
+
+
+
+
+    </Grid>
+</Window>
